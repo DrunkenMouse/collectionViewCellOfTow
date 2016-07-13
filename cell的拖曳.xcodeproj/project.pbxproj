@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163CA13D1D332CF500551101 /* ADDrawCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA13C1D332CF500551101 /* ADDrawCellCollectionView.m */; };
+		163CA1401D338FDE00551101 /* ADCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA13F1D338FDE00551101 /* ADCell.m */; };
+		163CA1431D338FFE00551101 /* ADCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA1421D338FFE00551101 /* ADCellModel.m */; };
 		166FA8CD1D2F9CE700FA5664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FA8CC1D2F9CE700FA5664 /* main.m */; };
 		166FA8D01D2F9CE700FA5664 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FA8CF1D2F9CE700FA5664 /* AppDelegate.m */; };
 		166FA8D31D2F9CE700FA5664 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FA8D21D2F9CE700FA5664 /* ViewController.m */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		163CA13B1D332CF500551101 /* ADDrawCellCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDrawCellCollectionView.h; sourceTree = "<group>"; };
+		163CA13C1D332CF500551101 /* ADDrawCellCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDrawCellCollectionView.m; sourceTree = "<group>"; };
+		163CA13E1D338FDE00551101 /* ADCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCell.h; sourceTree = "<group>"; };
+		163CA13F1D338FDE00551101 /* ADCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCell.m; sourceTree = "<group>"; };
+		163CA1411D338FFE00551101 /* ADCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCellModel.h; sourceTree = "<group>"; };
+		163CA1421D338FFE00551101 /* ADCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCellModel.m; sourceTree = "<group>"; };
 		166FA8C81D2F9CE700FA5664 /* cell的拖曳.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cell的拖曳.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		166FA8CC1D2F9CE700FA5664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		166FA8CE1D2F9CE700FA5664 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +114,12 @@
 				166FA8CF1D2F9CE700FA5664 /* AppDelegate.m */,
 				166FA8D11D2F9CE700FA5664 /* ViewController.h */,
 				166FA8D21D2F9CE700FA5664 /* ViewController.m */,
+				163CA13B1D332CF500551101 /* ADDrawCellCollectionView.h */,
+				163CA13C1D332CF500551101 /* ADDrawCellCollectionView.m */,
+				163CA13E1D338FDE00551101 /* ADCell.h */,
+				163CA13F1D338FDE00551101 /* ADCell.m */,
+				163CA1411D338FFE00551101 /* ADCellModel.h */,
+				163CA1421D338FFE00551101 /* ADCellModel.m */,
 				166FA8D41D2F9CE700FA5664 /* Main.storyboard */,
 				166FA8D71D2F9CE700FA5664 /* Assets.xcassets */,
 				166FA8D91D2F9CE700FA5664 /* LaunchScreen.storyboard */,
@@ -202,6 +217,7 @@
 		166FA8C01D2F9CE700FA5664 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AD;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "王奥东";
 				TargetAttributes = {
@@ -273,9 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163CA1431D338FFE00551101 /* ADCellModel.m in Sources */,
 				166FA8D31D2F9CE700FA5664 /* ViewController.m in Sources */,
 				166FA8D01D2F9CE700FA5664 /* AppDelegate.m in Sources */,
 				166FA8CD1D2F9CE700FA5664 /* main.m in Sources */,
+				163CA1401D338FDE00551101 /* ADCell.m in Sources */,
+				163CA13D1D332CF500551101 /* ADDrawCellCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +520,7 @@
 				166FA8F71D2F9CE800FA5664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		166FA8F81D2F9CE800FA5664 /* Build configuration list for PBXNativeTarget "cell的拖曳Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +529,7 @@
 				166FA8FA1D2F9CE800FA5664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		166FA8FB1D2F9CE800FA5664 /* Build configuration list for PBXNativeTarget "cell的拖曳UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +538,7 @@
 				166FA8FD1D2F9CE800FA5664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
